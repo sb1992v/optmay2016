@@ -1,19 +1,16 @@
-package com.two95.chapter7;
+package venkatesh.two95.chapter7;
 
-import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
 
-public class HashMapDemo {
-
+public class HashTableDemo {
 	public static void main(String[] args) {
 
 		Employee employee1 = new Employee(8, "venkatesh", "sudha");
 		Employee employee2 = new Employee(3, "prasad", "kumar");
 		Employee employee3 = new Employee(5, "vishwa", "kamity");
 
-		Map map = new HashMap();
+		Map map = new Hashtable();
 
 		map.put(8, employee1);
 		map.put(3, employee2);
@@ -24,5 +21,4 @@ public class HashMapDemo {
 		System.out.println(employee.getId() + " " + employee.getFirstName() + " " + employee.getFirstName());
 
 	}
-
 }

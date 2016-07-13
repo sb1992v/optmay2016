@@ -1,12 +1,14 @@
-package com.two95.chapter7;
+package venkatesh.two95.chapter7;
 
 import java.util.Date;
+
+import com.two95.chapter7.SimpleDateFormatDemo;
 
 public class StringBufferDemo1 {
 
 	public static void main(String args[]) {
 		Date d = new Date();
-		System.out.println(SimpleDateFormatDemo.getDate());
+		
 		System.out.println(d);
 		StringBuffer buffer = new StringBuffer("buffer initial value");
 		buffer.append("first value added");

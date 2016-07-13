@@ -37,10 +37,10 @@ public class Customer implements Comparable<Customer>{
 		this.ssn = ssn;
 	}
 	@Override
-	public int compareTo(Customer o) {
-		if(this.age>o.age) {
+	public int compareTo(Customer s1) {
+		if(this.age>s1.age) {
 			return 1;
-		} else if(this.age<o.age) {
+		} else if(this.age<s1.age) {
 			return -1 ;
 		} else {
 			return 0;

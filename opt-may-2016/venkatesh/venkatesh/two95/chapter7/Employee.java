@@ -1,4 +1,4 @@
-package com.two95.chapter7;
+package venkatesh.two95.chapter7;
 
 public class Employee {
 	private int id;
