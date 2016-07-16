@@ -1,4 +1,4 @@
-package com.two95.chapter7;
+package com.venkatesh.chapter7;
 
 import java.util.Hashtable;
 import java.util.Map;

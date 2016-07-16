@@ -1,12 +1,12 @@
-package com.two95.chapter7;
+package com.venkatesh.chapter7;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
-public class ArrayListDemo1 {
-
+public class VectorDemo1 {
 	public static void main(String[] args) {
-		List list = new ArrayList();
+		List list = new Vector();
 		list.add("hi");
 		list.add("this is array list");
 		list.add("Array list implemets list");
@@ -18,7 +18,7 @@ public class ArrayListDemo1 {
 		for (Object li : list) {
 			System.out.println(li);
 		}
-		List numbers = new ArrayList();
+		List numbers = new Vector();
 		numbers.add(1);
 		numbers.add(2);
 		numbers.add(3);
@@ -28,7 +28,7 @@ public class ArrayListDemo1 {
 			System.out.println(num);
 		}
 
-		ArrayList<Integer> no = new ArrayList<Integer>();
+		Vector<Integer> no = new Vector<Integer>();
 		no.add(133);
 		no.add(547);
 		for (int number : no) {

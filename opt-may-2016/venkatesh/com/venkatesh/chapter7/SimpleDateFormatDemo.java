@@ -1,4 +1,4 @@
-package com.two95.chapter7;
+package com.venkatesh.chapter7;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

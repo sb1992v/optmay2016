@@ -1,10 +1,10 @@
-package com.two95.chapter7;
+package com.venkatesh.chapter7;
+
+import com.two95.chapter7.SimpleDateFormatDemo;
 
 public class StringMaunpulation {
 
 	public static void main(String args[]) {
-		System.out.println(SimpleDateFormatDemo.getDate());
-		System.out.println(SimpleDateFormatDemo.getDateAsDate(SimpleDateFormatDemo.getDate()));
 		String str = "This is really really big text ";
 		int length = str.length();
 		System.out.println("The length of the text is " + length);
