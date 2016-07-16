@@ -45,6 +45,7 @@ public class Customer implements Comparable<Customer>{
 		} else {
 			return 0;
 		}
+		
 	}
 
 }
