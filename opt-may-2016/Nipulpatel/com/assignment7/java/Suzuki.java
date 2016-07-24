@@ -7,7 +7,7 @@
  * class : Sub class of car
  ***************************************************************/
 package com.assignment7.java;
-
+ 
 public class Suzuki extends Car {
 
 	private String CarName = "Suzuki";

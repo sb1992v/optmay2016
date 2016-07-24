@@ -13,7 +13,7 @@ public class Deadlock1 {
 	public synchronized void d1(Deadlock2 b) {
 
 		System.out.println("Thread 1 start execution of d1 method");
-
+ 
 		try {
 
 			Thread.sleep(6000);

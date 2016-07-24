@@ -8,7 +8,7 @@
  ***************************************************************/
 
 package com.assignment7.java;
-
+ 
 public class Vehicle {
 	public void dmvRegistration() {
 

@@ -12,7 +12,7 @@
 package com.assignment.chapter6.java;
 
 import java.util.Scanner;
-
+ 
 public class ArithmeticException {
 
 	private static Scanner userInput;

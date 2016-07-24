@@ -1,10 +1,10 @@
 package com.two95.chapter7;
 
-public class Customer {
+public class CustomerDetails {
 	String firstName;
 	String lastName;
 	int ssn;
-	public Customer(String firstName,String lastName,int ssn){
+	public CustomerDetails(String firstName,String lastName,int ssn){
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.ssn=ssn;

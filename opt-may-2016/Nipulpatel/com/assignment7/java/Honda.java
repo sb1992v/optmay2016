@@ -8,7 +8,7 @@
 package com.assignment7.java;
 
 public class Honda extends Car {
-    
+     
 	private String CarName = "Honda";
 	private String Model = "CRV";
 	private String EnginType = "2.4-liter i-VTEC";

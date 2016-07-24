@@ -1,7 +1,7 @@
 package com.Assignment6.java;
 
 public abstract class Mobile {
-
+ 
 	String mobileName;
 	String Modelnuber;
 	String Carrier;

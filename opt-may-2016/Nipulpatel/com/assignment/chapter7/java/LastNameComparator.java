@@ -10,7 +10,7 @@
 
 package com.assignment.chapter7.java;
 
-import java.util.Comparator;
+import java.util.Comparator; 
 
 public class LastNameComparator implements Comparator {
 

@@ -17,7 +17,7 @@ public class InputMismatch {
 	private static Scanner scanner;
 	private static Scanner userInput1;
 
-	@SuppressWarnings("resource")
+	@SuppressWarnings("resource") 
 	public static void main(String[] args) throws MyCustomException {
 
 		try {

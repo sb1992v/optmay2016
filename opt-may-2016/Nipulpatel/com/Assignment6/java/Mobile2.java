@@ -1,6 +1,6 @@
 package com.Assignment6.java;
 
-public class Mobile2 extends Mobile {
+public class Mobile2 extends Mobile { 
 
 	@Override
 	public void mobilename() {

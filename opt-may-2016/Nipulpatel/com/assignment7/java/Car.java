@@ -9,7 +9,7 @@
 package com.assignment7.java;
 
 public class Car extends Vehicle {
-
+ 
 	public void carWash() {
 
 		System.out.println("car wash");

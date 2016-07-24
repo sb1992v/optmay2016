@@ -7,7 +7,7 @@
  * class : Main class
  ***************************************************************/
 
-package com.assignment.chapter7.java;
+package com.assignment.chapter7.java; 
 
 import java.util.*;
 

@@ -11,7 +11,7 @@ package com.assignment.chapter6.java;
 
 import java.util.Scanner;
 
-public class ArrayIndexOutOfBounds {
+public class ArrayIndexOutOfBounds { 
 
 	private static Scanner userInput;
 

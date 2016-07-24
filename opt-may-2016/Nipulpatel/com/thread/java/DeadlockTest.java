@@ -9,7 +9,7 @@
 package com.thread.java;
 
 class DeadlockTest extends Thread
-
+ 
 {
 	Deadlock1 a = new Deadlock1();
 	Deadlock2 b = new Deadlock2();

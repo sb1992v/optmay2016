@@ -11,7 +11,7 @@
 package com.utilitiesCh7.java;
 import java.util.*;
 public class ArrayListDemo {
-
+ 
 	public static void main(String[] args) {
 		List<String> list = new ArrayList<String>();
 		// Add objects.

@@ -4,7 +4,7 @@ public class Userinfo1 implements MobileInterface {
 
 	String MobileOwnerName = "nipul";
 	String Address = "502 roche island ";
-	String city = "cherry hill";
+	String city = "cherry hill"; 
 
 	@Override
 	public String toString() {

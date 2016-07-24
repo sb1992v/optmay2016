@@ -18,7 +18,7 @@ import com.assignment.chapter7.java.StudentName;
 
 public class NullPointer {
 
-	private static List<String> string;
+	private static List<String> string; 
 	private static Scanner userInput1;
 
 	public static void main(String[] args) {
