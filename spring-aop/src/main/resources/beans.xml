@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+
+	<bean id="retailService" class="com.two95.mvn.spring.aop.RetailService">
+	</bean>
+
+	<bean id="cashier" class="com.two95.mvn.spring.aop.Cashier">
+		<property name="name" value="jack"></property>
+		<property name="designation" value="Cashier"></property>
+		<property name="retailService" ref="retailService"></property>
+	</bean>
+
+	<bean id="manager" class="com.two95.mvn.spring.aop.Manager">
+		<property name="name" value="mark"></property>
+		<property name="designation" value="Manager"></property>
+		<property name="retailService" ref="retailService"></property>
+	</bean>
+	
+	<bean id="test" class="com.two95.Test">
+		<property name="retailService" ref="retailService"></property>
+	</bean>
+
+	<bean id="intern" class="com.two95.mvn.spring.aop.Intern">
+		<property name="name" value="john"></property>
+		<property name="designation" value="Intern"></property>
+		<property name="retailService" ref="retailService"></property>
+	</bean>
+
+	<aop:config>
+		<aop:aspect id="retailServiceAspect" ref="retailService">
+			<aop:pointcut expression="execution(* com.two95.mvn.spring.aop.*.doWork(..))" id="doWork" />
+			<aop:before method="scanObject" pointcut-ref="doWork" />
+			<aop:before method="getPayment" pointcut-ref="doWork" />
+			<aop:after method="printBill" pointcut-ref="doWork" />
+			<aop:after method="packGoods" pointcut-ref="doWork" />
+			<aop:after-throwing pointcut-ref="doWork"
+				throwing="e" method="transactionFailure" />
+		</aop:aspect>
+	</aop:config>
+
+</beans>
